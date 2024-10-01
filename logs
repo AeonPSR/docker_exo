@@ -1,0 +1,15 @@
+
+api_1    | API running on http://localhost:5000
+api_1    | Fatal error during MySQL connection: Error: connect ECONNREFUSED 172.19.0.2:3306
+api_1    |     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+api_1    |     --------------------
+api_1    |     at Protocol._enqueue (/usr/src/app/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+api_1    |     at Protocol.handshake (/usr/src/app/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+api_1    |     at Connection.connect (/usr/src/app/node_modules/mysql/lib/Connection.js:116:18)
+api_1    |     at Object.<anonymous> (/usr/src/app/server.js:18:4)
+api_1    |     at Module._compile (internal/modules/cjs/loader.js:1114:14)
+api_1    |     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+api_1    |     at Module.load (internal/modules/cjs/loader.js:979:32)
+api_1    |     at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+api_1    |     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+api_1    |     at internal/main/run_main_module.js:17:47
